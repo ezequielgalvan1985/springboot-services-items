@@ -8,6 +8,17 @@ public class Producto {
     private Double precio;
     private Date createAt;
 
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
+    private Integer port;
+
     public Long getId() {
         return id;
     }

@@ -7,7 +7,7 @@ import udemy.microservices.springbootserviceitems.model.Producto;
 
 import java.util.List;
 
-@FeignClient(name="servicio-productos", url="localhost:8001")
+@FeignClient(name="servicio-productos")
 public interface ProductoClienteRest {
 
     @GetMapping("api/productos/")
